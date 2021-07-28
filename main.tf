@@ -14,4 +14,7 @@ provider "aws" {
 resource "aws_instance" "my-first-ec2-server" {
  ami = "ami-0567f647e75c7bc05"
  instance_type = "t2.micro"
+ tags = {
+   "Name" = "Ubuntu Server from TF"
+ }
 }
