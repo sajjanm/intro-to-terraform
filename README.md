@@ -5,6 +5,7 @@ This repo will hold the code as I learn and navigate the world of terraform
 1. ```terraform init``` will install required package in our system as mentioned in the main.tf file
 2. ```terraform plan``` does the dry run to see what are the things that the code is going to perform. Useful to see if the TF script will add or delete the resources in the system. 
 3. ```terraform apply``` will actually run the code
+    In dev environments, we can do something like ```terraform apply --auto-approve```
 4. ```terraform destroy``` will delete the resources from the cloud environment. Keep in mind it will destroy all the resources mentioned.
 
 # myLearnings
